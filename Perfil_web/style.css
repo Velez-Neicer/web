@@ -1,0 +1,110 @@
+/* estilo de imagen div*/
+body{
+    background-color: rgb(208, 246, 246);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.header{
+    text-align: center;
+    height: 100%;
+    padding: 10px;
+    background-image: url(/imagenes/portada.jpg);
+    background-position: center;
+    background-size: 75%;
+
+
+}/* estilo de imagen png*/
+.h{
+    margin-top: 0px;
+    background-color: rgb(208, 246, 246);
+    width: 100%;
+}
+.avatar{
+    width: 20%;
+    height: 90%;
+    border-radius: 50%;
+
+
+
+}
+/*estilo del nombre del perfil*/
+.nombrep{
+    font-size: 22px;
+    margin-top: 1px ;
+    font-size: 30px;
+
+}
+/*lista horizontal*/
+.lista{
+    margin-top: 0%;
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    background-color: rgb(208, 246, 246);
+}
+.lista li{
+    display: inline-block;
+    margin: 10px;
+}
+/*agregando iconos*/
+.icon{
+   width: 16px;
+   height: 16px;
+   display: inline-block;
+   background-size: cover;
+
+}
+.whatsapp{
+    background-image: url(iconos/whatsapp.png);
+}
+.email{
+    background-image: url(iconos/gmail.png);
+}
+
+.facebook{
+    background-image: url(iconos/facebook.png);
+}
+/*agregando seccion para informacion personal */
+.section1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1{
+    flex: 1;
+    padding: 25px;
+    background-color: white;
+    margin: 30px;
+    font-size: 25px;
+    text-align: justify;
+}
+.fotochirijos{
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+}
+.div2{
+    flex: 1;
+    padding: 25px;
+    background-color: white;
+    background-size: contain;
+    margin: 30px;
+    font-size: 25px;
+    text-align: justify;
+}
+.habilidades {
+    background-color: none;
+    width: 90%;
+    height: 80%;
+    margin: 10%;
+}
+.habilidades1 {
+    background-color: none;
+    width: 80%;
+    background-color: rgb(15, 14, 13);
+    margin: 13%;
+}
+.frase{
+    text-align: center;
+}
+
+
